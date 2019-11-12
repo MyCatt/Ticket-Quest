@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="975.52" height="339.657" viewBox="0 0 975.52 339.657">
+  <g id="Group_1" data-name="Group 1" transform="translate(-53.48 -297.239)">
+    <g id="_1F3AB" data-name="1F3AB" transform="matrix(0.454, -0.891, 0.891, 0.454, 46.414, 524.851)">
+      <g id="color" transform="translate(8.724 6.883)">
+        <path id="Path_1" data-name="Path 1" d="M186.458,78.4a48.029,48.029,0,0,1-8.021-55.526L162.978,6.85,6.886,157.483,23.207,174.4a48.054,48.054,0,0,1,61.5,63.732l16.321,16.913L257.124,104.408l-15.459-16.02A48.03,48.03,0,0,1,186.458,78.4Z" transform="translate(-6.886 -6.85)" fill="#fcea2b"/>
+      </g>
+      <g id="line" transform="translate(6.328 6.84)">
+        <path id="Path_2" data-name="Path 2" d="M185.9,78.386A48.029,48.029,0,0,1,177.88,22.86L162.42,6.84,6.328,157.473l16.321,16.913a48.054,48.054,0,0,1,61.5,63.732l16.321,16.913L256.565,104.4l-15.459-16.02A48.029,48.029,0,0,1,185.9,78.386Z" transform="translate(-6.328 -6.84)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="8.586" cy="8.586" r="8.586" transform="matrix(0.71, -0.704, 0.704, 0.71, 120.067, 65.569)"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="8.586" cy="8.586" r="8.586" transform="matrix(0.71, -0.704, 0.704, 0.71, 147.927, 93.642)"/>
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="8.586" cy="8.586" r="8.586" transform="matrix(0.71, -0.704, 0.704, 0.71, 175.787, 121.716)"/>
+      </g>
+    </g>
+    <text id="TicketQuest" transform="translate(330 509)" fill="#fff" font-size="120" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">TicketQuest</tspan></text>
+  </g>
+</svg>
