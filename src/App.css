@@ -92,7 +92,6 @@ body {
           user-select: none;
   position: relative;
   cursor: pointer;
-  width: 200px;
   float: right;
   height: 40px;
   line-height: 40px;
