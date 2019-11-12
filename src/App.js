@@ -150,7 +150,18 @@ export default class App extends React.Component {
           </div>
         </nav>
         <nav id="movieResults-sort">
-          <ComboSelector throw={this.updateSortMethod} menuList={[{tidy:"Popularity", messy: "popularity.desc"}, {tidy:"Release Date", messy: "release_date.desc"}, {tidy:"Revenue", messy: "revenue.desc"}, {tidy:"Votes", messy: "vote_count.desc"}, {tidy:"Vote Average", messy: "vote_average.desc"}]} />
+          <ComboSelector throw={this.updateSortMethod} menuList={
+            [{tidy:"Popularity Desc", messy: "popularity.desc"}, 
+            {tidy:"Popularity Asc", messy: "popularity.asc"}, 
+            {tidy:"Release Date Desc", messy: "release_date.desc"},
+            {tidy:"Release Date Asc", messy: "release_date.asc"}, 
+            {tidy:"Revenue Desc", messy: "revenue.desc"}, 
+            {tidy:"Revenue Asc", messy: "revenue.asc"}, 
+            {tidy:"Votes Desc", messy: "vote_count.desc"}, 
+            {tidy:"Votes Asc", messy: "vote_count.asc"}, 
+            {tidy:"Vote Average Desc", messy: "vote_average.desc"},
+            {tidy:"Vote Average Asc", messy: "vote_average.asc"}]
+            } />
         </nav>
         <main className="movieResults">
           {this.state.movieList.map((item, i) => {

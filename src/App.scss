@@ -191,7 +191,7 @@ body {
     animation: movieItem-display 1s forwards;
   }
   
-  @for $i from 1 through 20 {
+  @for $i from 1 through 200 {
     .movieItem:nth-child(#{$i}) {
         animation-delay: #{$i * 0.1}s;
     }
