@@ -1,0 +1,244 @@
+body {
+    background-color: #1a1f31;
+  }
+  
+  #movieResults-nav {
+    box-sizing: border-box;
+    padding: 20px 10vw;
+    width: 100%;
+    height: 100px;
+    background: #11131f;
+    #search-bar-section {
+      position: relative;
+      float: right;
+      z-index: 10;
+    }
+    #search-bar {
+      height: 40px;
+      width: 500px;
+      border-radius: 5px;
+      color: #fff;
+      border: 0;
+      padding: 0 20px;
+      margin: 10px 0;
+      box-sizing: border-box;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    #search-bar-results {
+      animation: 0.2s movieItem-display forwards;
+      position: absolute;
+      -webkit-box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.55);
+      -moz-box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.55);
+      box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.55);
+      top: 55px;
+      width: 500px;
+      background: #1a1f31;
+      color: #fff;
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding: 0;
+      dl {
+        padding: 0;
+        dt {
+          padding: 10px;
+          text-transform: uppercase;
+          font-size: 13px;
+          font-weight: bold;
+          background: rgba(0, 0, 0, 0.2);
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+          border-top: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        dd {
+          padding: 10px;
+          font-size: 14px;
+          margin: 0;
+          cursor: pointer;
+        }
+        dd:hover {
+          background: rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+    #logo {
+      float: left;
+      height: 60px;
+    }
+  }
+
+  #movieResults-sort {
+    background: rgba(0, 0, 0, 0.151);
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 20px 10vw;
+    .comboSelector {
+      user-select: none;
+      position: relative;
+      cursor: pointer;
+      width: 200px;
+      float: right;
+      height: 40px;
+      line-height: 40px;
+      box-sizing: border-box;
+      padding: 0 20px;
+      color: #fff;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 5px;
+      .comboSelector-menu {
+        cursor: pointer;
+        position: absolute;
+        border-radius: 5px;
+        top: 45px;
+        left: 0;
+        width: 200px;
+        background: #11131f;
+        margin: 0;
+        padding: 10px 0;
+        z-index: 10;
+        animation: movieItem-display 0.2s forwards;
+        .comboSelector-menu-item {
+          margin: 0;
+          padding: 0 20px;
+          box-sizing: border-box;
+        }
+        .comboSelector-menu-item:hover {
+          background: rgba(0, 0, 0, 0.4);
+        }
+      }
+    }
+  }
+  
+  @media screen and (min-width: 2000px) {
+    .movieResults {
+      width: 80%;
+      padding: 50px 10%;
+      text-align: center;
+      display: inline-grid;
+      grid-template-columns: auto auto auto auto auto auto;
+      justify-content: space-around;
+      grid-gap: 15px;
+    }
+  }
+
+  @media screen and (max-width: 2000px) {
+    .movieResults {
+      width: 80%;
+      padding: 50px 10%;
+      text-align: center;
+      display: inline-grid;
+      grid-template-columns: auto auto auto auto auto;
+      justify-content: space-around;
+      grid-gap: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    .movieResults {
+      width: 80%;
+      padding: 50px 10%;
+      text-align: center;
+      display: inline-grid;
+      grid-template-columns: auto auto auto auto;
+      justify-content: space-around;
+      grid-gap: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .movieResults {
+      width: 80%;
+      padding: 50px 10%;
+      text-align: center;
+      display: inline-grid;
+      grid-template-columns: auto auto auto;
+      justify-content: space-around;
+      grid-gap: 15px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .movieResults {
+      width: calc(100% - 40px);
+      padding: 50px 20px;
+      text-align: center;
+      display: inline-grid;
+      grid-template-columns: auto auto;
+      justify-content: space-around;
+      grid-gap: 15px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .movieResults {
+      width: calc(100% - 40px);
+      padding: 50px 20px;
+      text-align: center;
+      display: inline-grid;
+      grid-template-columns: auto;
+      justify-content: space-around;
+      grid-gap: 15px;
+    }
+  }
+
+  
+  .movieItem {
+    color: #fff;
+    position: relative;
+    transform: scale(0);
+    width: auto;
+    margin: 0;
+    text-align: center;
+    animation: movieItem-display 1s forwards;
+  }
+  
+  @for $i from 1 through 20 {
+    .movieItem:nth-child(#{$i}) {
+        animation-delay: #{$i * 0.1}s;
+    }
+  }
+  
+  @keyframes movieItem-display {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .movieDescription h3 {
+    color: rgb(0, 81, 255);
+  }
+  
+  .movieDescription p {
+    font-size: 14px;
+  }
+  
+  
+  .movieItem .movieDescription {
+    display: none;
+  }
+  
+  .moviePoster {
+    background: rgba(0, 0, 0, 0.2);
+    background-image: url(./missing.svg);
+    background-size: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -10000px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .movieItem:hover .movieDescription {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(1, 5, 14, 1); 
+    box-sizing: border-box;
+    padding: 15px;
+    transition: 1s;
+  }
