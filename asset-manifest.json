@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Ticket-Quest/static/css/main.71420932.chunk.css",
-    "main.js": "/Ticket-Quest/static/js/main.02f3bd21.chunk.js",
-    "main.js.map": "/Ticket-Quest/static/js/main.02f3bd21.chunk.js.map",
+    "main.css": "/Ticket-Quest/static/css/main.8d4d6bba.chunk.css",
+    "main.js": "/Ticket-Quest/static/js/main.55c08797.chunk.js",
+    "main.js.map": "/Ticket-Quest/static/js/main.55c08797.chunk.js.map",
     "runtime-main.js": "/Ticket-Quest/static/js/runtime-main.e5a07eea.js",
     "runtime-main.js.map": "/Ticket-Quest/static/js/runtime-main.e5a07eea.js.map",
     "static/js/2.c3d43cbe.chunk.js": "/Ticket-Quest/static/js/2.c3d43cbe.chunk.js",
     "static/js/2.c3d43cbe.chunk.js.map": "/Ticket-Quest/static/js/2.c3d43cbe.chunk.js.map",
     "index.html": "/Ticket-Quest/index.html",
-    "precache-manifest.667c91ba80c5928f9c51da488cf9b843.js": "/Ticket-Quest/precache-manifest.667c91ba80c5928f9c51da488cf9b843.js",
+    "precache-manifest.bd2d31cc9f02319f4d87ae8a6e4f1489.js": "/Ticket-Quest/precache-manifest.bd2d31cc9f02319f4d87ae8a6e4f1489.js",
     "service-worker.js": "/Ticket-Quest/service-worker.js",
-    "static/css/main.71420932.chunk.css.map": "/Ticket-Quest/static/css/main.71420932.chunk.css.map",
+    "static/css/main.8d4d6bba.chunk.css.map": "/Ticket-Quest/static/css/main.8d4d6bba.chunk.css.map",
     "static/media/LogoTicket.svg": "/Ticket-Quest/static/media/LogoTicket.505863ed.svg",
     "static/media/App.css": "/Ticket-Quest/static/media/missing.47217994.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e5a07eea.js",
     "static/js/2.c3d43cbe.chunk.js",
-    "static/css/main.71420932.chunk.css",
-    "static/js/main.02f3bd21.chunk.js"
+    "static/css/main.8d4d6bba.chunk.css",
+    "static/js/main.55c08797.chunk.js"
   ]
 }
